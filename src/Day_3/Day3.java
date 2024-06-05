@@ -8,6 +8,7 @@ public class Day3 {
         System.out.println(day3.commonChars(new String[]{"cool","lock","cook"}));
     }
 
+
     public List<String> commonChars(String[] words) {
         int[] common = new int[26];
         Arrays.fill(common, Integer.MAX_VALUE);
