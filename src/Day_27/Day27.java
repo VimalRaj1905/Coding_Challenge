@@ -10,6 +10,11 @@ public class Day27<List> {
         System.out.println(new Day27().getAncestors(n, arr));
 
     }
+
+    public List<List<Integer>> getAncestors() {
+        return getAncestors(0, null);
+    }
+
     public List<List<Integer>> getAncestors(int n, int[][] edges) {
         List<List<Integer>> ans = new ArrayList();
         List<List<Integer>> dc = new ArrayList();
