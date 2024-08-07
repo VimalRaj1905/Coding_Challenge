@@ -31,7 +31,7 @@ public class Day59 {
 
         } else if (n>100 && n<1000)
         {
-            System.out.println(ones[first] + hun + tens[sec] + ones[last] );
+            System.out.println(ones[first]  + hun + tens[sec] + ones[last] );
 
         }
         else
