@@ -10,7 +10,7 @@ public class Day61 {
     }
     public int numMagicSquaresInside(int[][] grid) {
         int count=0;
-        for(int i=0;i<grid.length-2;i++){
+        for(int i=0;i<grid.length -2;i++){
             for(int j=0;j<grid[i].length-2;j++){
                 if(help(grid,i,j)){
                     count++;
