@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class Day61 {
     public static void main(String[] args) {
         int [][] grid = {{4,3,8,4},{9,5,1,9},{2,7,6,2}};
-        System.out.println(new Day61().numMagicSquaresInside(grid));
+        System.out.println (new Day61().numMagicSquaresInside(grid));
 
     }
     public int numMagicSquaresInside(int[][] grid) {
